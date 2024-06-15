@@ -1,0 +1,52 @@
+
+* {
+    background-color: #d3d3d3;
+}
+.container {
+    display : flex;
+    border: thin solid black;
+    gap : 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.container div {
+    
+    width: 32px;
+    height: 32px;
+    border: thin solid red;
+    order: 8; 
+    
+}
+
+.main-container {
+    margin-right: auto;
+    margin-left: auto;
+    width : 405px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.new {
+   
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center
+    
+}
+
+.new button {
+
+    border-radius: 3px;
+    height: 40px;
+    width: 80px;
+    
+}
+
+.box {
+    border-radius : 6px;
+    box-shadow: 1px 0px;
+}
